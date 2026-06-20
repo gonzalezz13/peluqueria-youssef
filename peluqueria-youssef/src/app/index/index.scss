@@ -495,3 +495,309 @@
     }
   }
 }
+
+.reseñas {
+  background-color: #000000d6;
+  border-top: 1px solid var(--color-acento);
+  width: 100%;
+  padding: 5rem 0 6rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .reseñas-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    margin-bottom: 3rem;
+
+    .reseñas-header-izq {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      .reseñas-label {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        font-size: 0.7rem;
+        font-weight: 600;
+        letter-spacing: 0.2em;
+        color: var(--color-acento);
+        text-transform: uppercase;
+
+        .linea {
+          display: inline-block;
+          width: 30px;
+          height: 1px;
+          background-color: var(--color-acento);
+        }
+      }
+
+      h2 {
+        font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+        font-weight: 900;
+        color: var(--color-fondo);
+        line-height: 1.1;
+        margin: 0;
+      }
+    }
+
+    .rating-badge {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid var(--color-acento);
+      padding: 1rem 1.5rem;
+      gap: 0.25rem;
+
+      .rating-numero {
+        font-size: 2.5rem;
+        font-weight: 900;
+        color: var(--color-acento);
+        line-height: 1;
+      }
+
+      .rating-estrellas {
+        font-size: 0.9rem;
+        color: var(--color-acento);
+        letter-spacing: 2px;
+      }
+
+      .rating-label {
+        font-size: 0.6rem;
+        font-weight: 700;
+        letter-spacing: 0.15em;
+        color: rgba(255, 255, 255, 0.5);
+        text-transform: uppercase;
+        margin-top: 0.15rem;
+      }
+    }
+  }
+
+  .reseñas-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    width: 90%;
+    max-width: 1200px;
+
+    .reseña-card {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      background-color: var(--color-primario);
+      padding: 2rem;
+      border: 1px solid rgba(255, 255, 255, 0.07);
+
+      .reseña-puntuacion {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        .comilla {
+          font-size: 2rem;
+          color: var(--color-acento);
+          line-height: 1;
+        }
+
+        .estrellas {
+          font-size: 1rem;
+          color: var(--color-acento);
+          letter-spacing: 2px;
+        }
+      }
+
+      .reseña-text {
+        font-size: 0.88rem;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.6);
+        line-height: 1.7;
+        flex-grow: 1;
+      }
+
+      .reseña-autor {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        margin-top: auto;
+
+        .avatar {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 0.9rem;
+          font-weight: 700;
+          color: #fff;
+          flex-shrink: 0;
+        }
+
+        .avatar-g { background-color: #2e7d9a; }
+        .avatar-x { background-color: #6a3ea1; }
+        .avatar-a { background-color: #2e7d55; }
+
+        .autor-info {
+          display: flex;
+          flex-direction: column;
+          gap: 0.1rem;
+
+          h3 {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin: 0;
+          }
+
+          .reseña-fecha {
+            font-size: 0.75rem;
+            color: rgba(255, 255, 255, 0.35);
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+// - SECCIÓN BENEFICIOS
+.beneficios {
+  background-color: var(--color-servicios);
+  width: 100%;
+
+  .beneficios-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 6rem 0;
+  }
+
+  // ── Header izquierdo ──
+  .beneficios-header {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+
+    .beneficios-label {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      color: var(--color-acento);
+      text-transform: uppercase;
+
+      .linea {
+        display: inline-block;
+        width: 30px;
+        height: 1px;
+        background-color: var(--color-acento);
+      }
+    }
+
+    h2 {
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 900;
+      color: var(--color-primario);
+      line-height: 1.1;
+      margin: 0;
+    }
+  }
+
+  // ── Grid de beneficios ──
+  .beneficios-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem 3rem;
+    margin-top: 2rem;
+
+    .beneficio-card {
+      display: grid;
+      grid-template-columns: 42px 1fr;
+      column-gap: 0.75rem;
+      align-items: start;
+      row-gap: 0;
+
+      .beneficio-icon {
+        width: 42px;
+        height: 42px;
+        background-color: var(--color-primario);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+
+        i {
+          font-size: 1rem;
+          color: var(--color-acento);
+        }
+      }
+
+      .beneficio-contenido {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        h3 {
+          font-size: 0.95rem;
+          font-weight: 700;
+          color: var(--color-primario);
+          margin: 0;
+        }
+
+        p {
+          font-size: 0.85rem;
+          color: #7c7c75;
+          line-height: 1.7;
+          margin: 0;
+
+          .hl {
+            color: var(--color-acento);
+          }
+        }
+      }
+    }
+  }
+}
+
+.cta {
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/fondo-cta.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 0;
+  text-align: center;
+    .cta-header {
+      display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        font-size: 0.7rem;
+        font-weight: 600;
+        letter-spacing: 0.2em;
+        color: var(--color-acento);
+        text-transform: uppercase;
+        
+      .linea {
+        display: inline-block;
+        width: 30px;
+        height: 1px;
+        background-color: var(--color-acento);
+      }
+    }
+}
