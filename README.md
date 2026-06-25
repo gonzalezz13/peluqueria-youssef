@@ -4,21 +4,20 @@ Sitio web moderno y responsive para una barbería local, desarrollado como proye
 
 ---
 
-## Demo
+## 🚀 Demo
 
 > Proyecto actualmente en desarrollo local. Próximamente disponible online.
 
 ---
 
-## Preview
+## 📸 Preview
 
 <img width="1056" height="1680" alt="image" src="https://github.com/user-attachments/assets/c29f4b08-fec4-4358-8fc9-89e261e50d21" />
 <img width="1052" height="1517" alt="image" src="https://github.com/user-attachments/assets/f5be6c6a-3bad-4591-81dd-e0b872b15b94" />
 
-
 ---
 
-## Tecnologías utilizadas
+## 🛠️ Tecnologías utilizadas
 
 - **Angular 21** — Framework principal
 - **TypeScript** — Lenguaje de programación
@@ -26,7 +25,7 @@ Sitio web moderno y responsive para una barbería local, desarrollado como proye
 
 ---
 
-## Secciones
+## 📋 Secciones
 
 | Sección                 | Descripción                                             |
 | ----------------------- | ------------------------------------------------------- |
@@ -73,3 +72,9 @@ Abre [http://localhost:4200](http://localhost:4200) en tu navegador.
 
 - 💼 [LinkedIn](https://linkedin.com/in/vicente-arnal-gonzález)
 - 🐙 [GitHub](https://github.com/gonzalezz13)
+
+---
+
+## 📄 Licencia
+
+Este proyecto es de uso privado. Desarrollado para Peluquería Youssef.
