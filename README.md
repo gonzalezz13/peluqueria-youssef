@@ -1,4 +1,4 @@
-# Youssef Barbershop - Web Site
+# 💈Peluquería Youssef - Sitio Web
 
 Sitio web moderno y responsive para una barbería local, desarrollado como proyecto freelance. Incluye información del negocio, servicios, galería, reseñas y contacto con ubicación.
 
@@ -12,7 +12,7 @@ Sitio web moderno y responsive para una barbería local, desarrollado como proye
 
 ## Preview
 
-![Preview Peluquería Youssef](public/readme/preview_1.png)
+![Preview Peluquería Youssef](https://raw.githubusercontent.com/gonzalezz13/peluqueria-youssef/main/public/readme/preview_1.png)
 
 ---
 
@@ -67,7 +67,7 @@ Abre [http://localhost:4200](http://localhost:4200) en tu navegador.
 
 ## 👨‍💻 Autor
 
-**Vicente** — Desarrollador Full Stack
+**Vicente Arnal** — Desarrollador Full Stack
 
 - 💼 [LinkedIn](https://linkedin.com/in/vicente-arnal-gonzález)
 - 🐙 [GitHub](https://github.com/gonzalezz13)
