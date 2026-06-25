@@ -12,7 +12,7 @@ Sitio web moderno y responsive para una barbería local, desarrollado como proye
 
 ## Preview
 
-![Preview Peluquería Youssef](https://raw.githubusercontent.com/gonzalezz13/peluqueria-youssef/main/public/readme/preview_1.png)
+![Preview Peluquería Youssef](https://https://github.com/gonzalezz13/peluqueria-youssef/blob/main/peluqueria-youssef/public/readme/preview_1.png?raw=true)
 
 ---
 
