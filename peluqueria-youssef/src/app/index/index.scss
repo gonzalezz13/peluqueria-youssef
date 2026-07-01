@@ -778,12 +778,13 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 50vh;
+
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/fondo-cta.jpg);
   background-size: cover;
   background-position: center;
-  padding: 6rem 0;
+  gap: 1.25rem;
+  padding: 8rem 1rem;
   text-align: center;
     .cta-header {
       display: flex;
@@ -809,8 +810,7 @@
       color: #ffffff;
       line-height: 1.1;
       margin: 0;
-      margin-top: 2rem;
-      margin-bottom: 2rem;
+      margin: 0;
 
       .destacado {
         color: var(--color-acento);
@@ -822,7 +822,7 @@
       font-weight: 400;
       color: rgba(255, 255, 255, 0.6);
       line-height: 1.7;
-      flex-grow: 1;
+
     }
 
     .hero-botones {
