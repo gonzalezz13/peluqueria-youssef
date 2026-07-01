@@ -1,10 +1,14 @@
-<nav [class.scrolled]="scrolled">
+<nav [class.scrolled]="scrolled" [class.menu-open]="menuOpen">
     <p><span><i class="fa-solid fa-scissors"></i></span>YOUSSEF</p>
     <div class="nav-links">
-        <a href="#servicios">SERVICIOS</a>
-        <a href="#galeria">GALERÍA</a>
-        <a href="#reseñas">RESEÑAS</a>
-        <a href="#contacto">CONTACTO</a>
+        <a href="#servicios" (click)="closeMenu()">SERVICIOS</a>
+        <a href="#galeria" (click)="closeMenu()">GALERÍA</a>
+        <a href="#reseñas" (click)="closeMenu()">RESEÑAS</a>
+        <a href="#contacto" (click)="closeMenu()">CONTACTO</a>
+        <button class="btn-reservar-mobile" (click)="closeMenu()">RESERVAR</button>
     </div>
     <button class="btn-reservar">RESERVAR</button>
+    <button class="hamburger" (click)="toggleMenu()" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+    </button>
 </nav>

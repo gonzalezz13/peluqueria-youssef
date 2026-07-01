@@ -149,4 +149,18 @@
       margin: 0;
     }
   }
+
+  // ── Responsive ──
+  @media (max-width: 768px) {
+    .footer-inner {
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+      padding: 3rem 5%;
+    }
+
+    .footer-desc {
+      max-width: 100%;
+    }
+  }
 }
+
